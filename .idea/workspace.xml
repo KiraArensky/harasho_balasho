@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0819410-79dc-47cd-8be9-7f2225b9bd08" name="Changes" comment="balash site button" />
+    <list default="true" id="b0819410-79dc-47cd-8be9-7f2225b9bd08" name="Changes" comment="Andre connection">
+      <change beforePath="$PROJECT_DIR$/Андр/a.css" beforeDir="false" afterPath="$PROJECT_DIR$/балаш/a.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Андр/des.css" beforeDir="false" afterPath="$PROJECT_DIR$/Андр/des.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/балаш/des.css" beforeDir="false" afterPath="$PROJECT_DIR$/балаш/des.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/балаш/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/балаш/main.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +15,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="balash" />
         <entry key="$PROJECT_DIR$" value="andre" />
       </map>
     </option>
@@ -25,7 +30,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Valentina\site_AI\балаш" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -94,7 +105,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674152625631</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Andre site button">
+      <created>1674401988897</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674401988897</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Andre connection">
+      <created>1674403842129</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674403842129</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +139,8 @@
     <MESSAGE value="balza site font" />
     <MESSAGE value="andre site animation" />
     <MESSAGE value="balash site button" />
-    <option name="LAST_COMMIT_MESSAGE" value="balash site button" />
+    <MESSAGE value="Andre site button" />
+    <MESSAGE value="Andre connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Andre connection" />
   </component>
 </project>

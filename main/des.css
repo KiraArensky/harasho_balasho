@@ -7,29 +7,43 @@ a.upbarlink
 {
  color: white;
  text-decoration: none;
+ padding: 8px 18px 10px 18px;
 }
 a.upbarlink:hover {
-color: black;
+color: grey;
 }
-.upbarlink1 {
+.upbarlinkcontact {
  position: fixed;
  margin: 10px 10px 0 calc(100% - 125px);
- padding: 8px 18px 10px 18px;
+ padding: 8px 2px 10px 2px;
  color: white;
  font-family: Calibri;
  font-size: 20px;
  background-color: rgba(0,0,0,0.5);
  border-radius: 15px;
+ z-index: 1;
 }
-.upbarlink2 {
+.upbarlinkstudy {
  position: fixed;
  margin: 10px 10px 0 calc(100% - 255px);
- padding: 8px 18px 10px 18px;
+ padding: 8px 0 10px 0;
  color: white;
  font-family: Calibri;
  font-size: 20px;
  background-color: rgba(0,0,0,0.5);
  border-radius: 15px;
+ z-index: 1;
+}
+.upbarlinkup {
+ position: fixed;
+ margin: 10px 10px 0 calc(100% - 366px);
+ padding: 8px 0 10px 0;
+ color: white;
+ font-family: Calibri;
+ font-size: 20px;
+ background-color: rgba(0,0,0,0.5);
+ border-radius: 15px;
+ z-index: 1;
 }
 .headbackgr {
 width: 100%;
@@ -44,10 +58,12 @@ position: relative;
 color: white;
 padding: 10% 0 0 0;
 font-family: Calibri;
-text-align: center; 
+text-align: center;
 text-shadow: rgb(250,100,220) 1px 1px 15px, rgb(250,100,220) -1px -1px 15px, rgb(250,100,220)  -1px 1px 15px, rgb(250,100,220) 1px -1px 15px;
 }
 .desctext {
+font-size: 20px;
+font-family: Consolas,monospace;
 color: rgb(191,201,209); 
 background-color: rgb(53,57,61);
 margin: 15px 20% 0 20%;
