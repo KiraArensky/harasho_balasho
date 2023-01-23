@@ -50,7 +50,7 @@ width: 100%;
 height: 70vh;
 background-image: url(img/backgroundhead.png);
 background-size: cover;
-border-radius: 0 0 30px 30px;
+border-radius: 30px 30px 30px 30px;
 }
 .headtext {
 font-size: 30px;
