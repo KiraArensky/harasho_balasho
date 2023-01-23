@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0819410-79dc-47cd-8be9-7f2225b9bd08" name="Changes" comment="Andre connection">
-      <change beforePath="$PROJECT_DIR$/Андр/a.css" beforeDir="false" afterPath="$PROJECT_DIR$/балаш/a.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Андр/des.css" beforeDir="false" afterPath="$PROJECT_DIR$/Андр/des.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/балаш/des.css" beforeDir="false" afterPath="$PROJECT_DIR$/балаш/des.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/балаш/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/балаш/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/img/chat-left-dots.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/des.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/des.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,11 +17,13 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="balash" />
-        <entry key="$PROJECT_DIR$" value="andre" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KYWytUpQD8kxA7sg4Nrk5mguK0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -32,9 +36,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\student303-1\Documents\GitHub\harasho_balasho\main\img" />
       <recent name="C:\Users\Valentina\site_AI\балаш" />
     </key>
   </component>
@@ -132,7 +138,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="main site sketch" />

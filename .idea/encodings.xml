@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/main/info.html" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/main/main.html" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/Андр/main.html" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/балаш/main.html" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/балаш/main.html" charset="windows-1251" />
   </component>
 </project>

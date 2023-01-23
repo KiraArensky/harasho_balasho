@@ -12,38 +12,40 @@ a.upbarlink
 a.upbarlink:hover {
 color: grey;
 }
-.upbarlinkcontact {
+.header {
  position: fixed;
- margin: 10px 10px 0 calc(100% - 125px);
+ width: 100%;
+ height: 8vh;
+ color: white;
+ font-family: Calibri;
+ font-size: 20px;
+ background-color: rgba(18,22,26,0.9);
+ border-bottom: 5px ridge rgba(8,12,16,0.95);
+ z-index: 1;
+}
+.thirduplink {
+ position: inherit;
+ margin: 2vh 0 0 calc(100% - 5.3em);
  padding: 8px 2px 10px 2px;
- color: white;
- font-family: Calibri;
- font-size: 20px;
- background-color: rgba(0,0,0,0.5);
+ background-color: rgb(43,47,51);
  border-radius: 15px;
- z-index: 1;
+ z-index: 2;
 }
-.upbarlinkstudy {
- position: fixed;
- margin: 10px 10px 0 calc(100% - 255px);
+.seconduplink{
+ position: inherit;
+ margin: 2vh 0 2vh calc(100% - 12.3em);
  padding: 8px 0 10px 0;
- color: white;
- font-family: Calibri;
- font-size: 20px;
- background-color: rgba(0,0,0,0.5);
+ background-color: rgb(43,47,51);
  border-radius: 15px;
- z-index: 1;
+ z-index: 2;
 }
-.upbarlinkup {
- position: fixed;
- margin: 10px 10px 0 calc(100% - 366px);
+.firstuplink {
+ position: inherit;
+ margin: 2vh 0 2vh calc(100% - 18.3em);
  padding: 8px 0 10px 0;
- color: white;
- font-family: Calibri;
- font-size: 20px;
- background-color: rgba(0,0,0,0.5);
+ background-color: rgb(43,47,51);
  border-radius: 15px;
- z-index: 1;
+ z-index: 2;
 }
 .headbackgr {
 width: 100%;
@@ -53,23 +55,39 @@ background-size: cover;
 border-radius: 0 0 30px 30px;
 }
 .headtext {
-font-size: 30px;
+font-size: 40px;
 position: relative;
-color: white;
+color: rgb(255,255,255);
 padding: 10% 0 0 0;
-font-family: Calibri;
+font-family: Andale Mono, monospace;
 text-align: center;
-text-shadow: rgb(250,100,220) 1px 1px 15px, rgb(250,100,220) -1px -1px 15px, rgb(250,100,220)  -1px 1px 15px, rgb(250,100,220) 1px -1px 15px;
+text-shadow: rgb(250,100,220) 1px 1px 9px, rgb(250,100,220) -1px -1px 9px, rgb(250,100,220)  -1px 1px 9px, rgb(250,100,220) 1px -1px 9px;
 }
 .desctext {
+text-indent: 1em;
 font-size: 20px;
-font-family: Consolas,monospace;
-color: rgb(191,201,209); 
+font-family: Consolas;
+color: rgb(191,201,209);
 background-color: rgb(53,57,61);
 margin: 15px 20% 0 20%;
 padding: 1px 20px 1px 15px;
 border-radius: 10px;
 }
+.bot{
+background-color: red;
+background-image: url(img/chat-left-dots.svg);
+background-size: cover;
+position: fixed;
+width: 5vh;
+height: 5vh;
+margin: 90vh 0 0 5vh;
+}
+.dialog{
+margin: 50vh 50vh 10vh 10vh;
+z-index: 1;
+}
 .def {
+font-size: 25px;
 color: white;
+font-family: Consolas, monospace;
 }

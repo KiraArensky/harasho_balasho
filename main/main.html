@@ -21,16 +21,43 @@
     }
 }
 
+
 </style>
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+
+
+</script>
 <body>
-<div class="upbarlinkcontact">
-    <a href="https://shapeshed.com/using-background-images-with-links/" class="upbarlink">Контакты</a>
-</div>
-<div class="upbarlinkstudy">
-    <a href="" class="upbarlink">Обучение</a>
-</div>
-<div class="upbarlinkup">
-    <a href="" class="upbarlink">Главная</a>
+<div class="header">
+    <div class="thirduplink">
+        <a href="info.html" class="upbarlink">О нас</a>
+    </div>
+    <div class="seconduplink">
+        <a href="" class="upbarlink">Обучение</a>
+    </div>
+    <div class="firstuplink">
+        <a onclick="topFunction()" class="upbarlink">Главная</a>
+    </div>
+    <div class="bot">
+        <button class="dialog">Ботяра</button>
+    </div>
 </div>
 <div class="headbackgr">
     <div class="headtext">
@@ -41,9 +68,9 @@
     </div>
 </div>
 <div class="desctext">
-    <p><span class="def">Иску?cственный интелле?кт (ИИ; англ. artificial intelligence, AI) &#151 </span>свойство
+    <p><span class="def">Искутcственный интеллект (ИИ; англ. artificial intelligence, AI) &#151 </span>свойство
         искусственных интеллектуальных систем выполнять творческие функции, которые традиционно считаются прерогативой
-        человека[1] (не следует путать с искусственным сознанием); наука и технология создания интеллектуальных машин,
+        человека (не следует путать с искусственным сознанием); наука и технология создания интеллектуальных машин,
         особенно интеллектуальных компьютерных программ.</p>
     <p>Искусственный интеллект связан со сходной задачей использования компьютеров для понимания человеческого
         интеллекта, но не обязательно ограничивается биологически правдоподобными методами.</p>
