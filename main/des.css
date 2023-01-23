@@ -10,6 +10,7 @@ a.upbarlink
  padding: 8px 18px 10px 18px;
 }
 a.upbarlink:hover {
+cursor: pointer;
 color: grey;
 }
 .header {
@@ -24,6 +25,7 @@ color: grey;
  z-index: 1;
 }
 .thirduplink {
+ user-select: none;
  position: inherit;
  margin: 2vh 0 0 calc(100% - 5.3em);
  padding: 8px 2px 10px 2px;
@@ -32,6 +34,7 @@ color: grey;
  z-index: 2;
 }
 .seconduplink{
+ user-select: none;
  position: inherit;
  margin: 2vh 0 2vh calc(100% - 12.3em);
  padding: 8px 0 10px 0;
@@ -40,6 +43,7 @@ color: grey;
  z-index: 2;
 }
 .firstuplink {
+ user-select: none;
  position: inherit;
  margin: 2vh 0 2vh calc(100% - 18.3em);
  padding: 8px 0 10px 0;
@@ -73,18 +77,26 @@ margin: 15px 20% 0 20%;
 padding: 1px 20px 1px 15px;
 border-radius: 10px;
 }
-.bot{
-background-color: red;
+.botbutton{
+cursor: pointer;
+border-radius: 12px;
+border: 0 none rgba(0,0,0,0);
+background-color: rgba(30,110,230);
 background-image: url(img/chat-left-dots.svg);
-background-size: cover;
-position: fixed;
-width: 5vh;
-height: 5vh;
-margin: 90vh 0 0 5vh;
-}
-.dialog{
-margin: 50vh 50vh 10vh 10vh;
+background-size: 65px;
+background-repeat: no-repeat;
+background-position: 50% 60%;
+width: 75px;
+height: 75px;
+margin: 88vh 0 0 2vw;
 z-index: 1;
+}
+.chatwindow{
+width: 250px;
+height: 400px;
+margin: -40vh 0 0 10vw;
+background-color: rgba(30,110,230);
+border-radius: 10px;
 }
 .def {
 font-size: 25px;
