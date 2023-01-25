@@ -1,6 +1,5 @@
 body {
 background-color: rgb(33,37,41);
-font-family: Arial;
 margin: 0;
 }
 a.upbarlink
@@ -13,21 +12,40 @@ a.upbarlink:hover {
 cursor: pointer;
 color: grey;
 }
-.header {
+::-webkit-scrollbar {
+height: 12px;
+width: 12px;
+background-color: rgb(100,100,100);
+}
+::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb {
+border-radius: 5px;
+background-color: rgb(80,90,190);
+-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-corner{
+border-radius: 0px;
+background-color: rgb(80,90,220);
+-webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.5);
+}
+.fixed {
  position: fixed;
- width: 100%;
+ width: 100vw;
  height: 8vh;
  color: white;
  font-family: Calibri;
  font-size: 20px;
- background-color: rgba(18,22,26,0.9);
- border-bottom: 5px ridge rgba(8,12,16,0.95);
+ background-color: rgba(18,22,26,0.95);
+ border-bottom: 5px ridge rgba(8,12,16,0.98);
+ margin: 0;
  z-index: 1;
 }
 .thirduplink {
  user-select: none;
  position: inherit;
- margin: 2vh 0 0 calc(100% - 5.3em);
+ margin: calc(4vh - 18px) 0 0 calc(100% - 5.3em);
  padding: 8px 2px 10px 2px;
  background-color: rgb(43,47,51);
  border-radius: 15px;
@@ -36,7 +54,7 @@ color: grey;
 .seconduplink{
  user-select: none;
  position: inherit;
- margin: 2vh 0 2vh calc(100% - 12.3em);
+ margin: calc(4vh - 18px) 0 2vh calc(100% - 12.3em);
  padding: 8px 0 10px 0;
  background-color: rgb(43,47,51);
  border-radius: 15px;
@@ -45,11 +63,15 @@ color: grey;
 .firstuplink {
  user-select: none;
  position: inherit;
- margin: 2vh 0 2vh calc(100% - 18.3em);
+ margin: calc(4vh - 18px) 0 2vh calc(100% - 18.3em);
  padding: 8px 0 10px 0;
  background-color: rgb(43,47,51);
  border-radius: 15px;
  z-index: 2;
+}
+.infocontainer{
+height: 90vh;
+margin: 0;
 }
 .headbackgr {
 width: 100%;
@@ -62,10 +84,16 @@ border-radius: 0 0 30px 30px;
 font-size: 40px;
 position: relative;
 color: rgb(255,255,255);
-padding: 10% 0 0 0;
+padding: 12vh 0 0 0;
 font-family: Andale Mono, monospace;
 text-align: center;
 text-shadow: rgb(250,100,220) 1px 1px 9px, rgb(250,100,220) -1px -1px 9px, rgb(250,100,220)  -1px 1px 9px, rgb(250,100,220) 1px -1px 9px;
+}
+.htext {
+font-size: 30px;
+color: white;
+font-family: Consolas;
+text-align: center;
 }
 .desctext {
 text-indent: 1em;
@@ -73,14 +101,14 @@ font-size: 20px;
 font-family: Consolas;
 color: rgb(191,201,209);
 background-color: rgb(53,57,61);
-margin: 15px 20% 0 20%;
+margin: 30px 20vw 30px 20vw;
 padding: 1px 20px 1px 15px;
-border-radius: 10px;
+border-radius: 15px;
 }
 .botbutton{
 cursor: pointer;
 border-radius: 12px;
-border: 0 none rgba(0,0,0,0);
+border: 1px solid rgba(0,0,0);
 background-color: rgba(30,110,230);
 background-image: url(img/chat-left-dots.svg);
 background-size: 65px;
@@ -92,14 +120,49 @@ margin: 88vh 0 0 2vw;
 z-index: 1;
 }
 .chatwindow{
-width: 250px;
-height: 400px;
-margin: -40vh 0 0 10vw;
-background-color: rgba(30,110,230);
+position: fixed;
+border: 3px solid  rgba(255,255,255,0.9);
+width: 17.5vw;
+height: 45vh;
+resize: auto;
+margin: -60vh 0 0 1vw;
 border-radius: 10px;
+z-index: 2;
 }
 .def {
 font-size: 25px;
 color: white;
 font-family: Consolas, monospace;
+}
+.photoscontainerright{
+float:right;
+height: 90vh;
+width: 20vw;
+margin: 10vh 0 0 0;
+}
+.photoscontainerleft{
+float:left;
+height: 90vh;
+width: 20vw;
+margin: 10vh 0 0 0;
+}
+.photocommunism{
+margin: 10px;
+width: 90%;
+height: 20%;
+background-image: url(img/communism.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: 50% 50%;
+border-radius: 10px;
+}
+.photoandre{
+margin: 10px;
+width: 90%;
+height: 20%;
+background-image: url(img/andre.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: 50% 50%;
+border-radius: 10px;
 }
