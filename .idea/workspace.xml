@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0819410-79dc-47cd-8be9-7f2225b9bd08" name="Changes" comment="26.01">
-      <change afterPath="$PROJECT_DIR$/main/education.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/img/netology.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_01_2023_21_28__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_01_2023_21_28__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_22_01_2023_21_27__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_22_01_2023_21_27__Changes_.xml" afterDir="false" />
+    <list default="true" id="b0819410-79dc-47cd-8be9-7f2225b9bd08" name="Changes" comment="25.01">
+      <change afterPath="$PROJECT_DIR$/main/img/academy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/img/academyyandex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/img/coursera.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/img/geekbrains.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/img/skillbox.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_01_2023_8_11__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_01_2023_8_11__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/des.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/des.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/education.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/info.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.html" afterDir="false" />
     </list>
@@ -36,6 +38,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -53,15 +60,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vlad/PycharmProjects/harasho_balasho/main/img&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Vlad\PycharmProjects\harasho_balasho\main\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vlad\PycharmProjects\harasho_balasho\main\img" />
       <recent name="C:\Users\student303-1\Documents\GitHub\harasho_balasho\main\img" />
       <recent name="C:\Users\Valentina\site_AI\балаш" />
     </key>
@@ -188,7 +199,6 @@
     <MESSAGE value="Andre site button" />
     <MESSAGE value="Andre connection" />
     <MESSAGE value="update 23.01" />
-    <MESSAGE value="26.01" />
-    <option name="LAST_COMMIT_MESSAGE" value="26.01" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 23.01" />
   </component>
 </project>
