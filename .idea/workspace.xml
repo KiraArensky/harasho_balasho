@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0819410-79dc-47cd-8be9-7f2225b9bd08" name="Changes" comment="update 23.01">
-      <change afterPath="$PROJECT_DIR$/main/chat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/img/andre.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/img/communism.jpg" afterDir="false" />
+    <list default="true" id="b0819410-79dc-47cd-8be9-7f2225b9bd08" name="Changes" comment="26.01">
+      <change afterPath="$PROJECT_DIR$/main/education.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/img/netology.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_01_2023_21_28__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_01_2023_21_28__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_22_01_2023_21_27__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_22_01_2023_21_27__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/des.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/des.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/info.html" afterDir="false" />
@@ -34,11 +36,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;
-  }
-}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -56,13 +53,10 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Vlad/PycharmProjects/harasho_balasho/main/img"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Vlad\PycharmProjects\harasho_balasho\main\img" />
@@ -194,6 +188,7 @@
     <MESSAGE value="Andre site button" />
     <MESSAGE value="Andre connection" />
     <MESSAGE value="update 23.01" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 23.01" />
+    <MESSAGE value="26.01" />
+    <option name="LAST_COMMIT_MESSAGE" value="26.01" />
   </component>
 </project>
