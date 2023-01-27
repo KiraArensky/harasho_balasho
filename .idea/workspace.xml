@@ -4,16 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0819410-79dc-47cd-8be9-7f2225b9bd08" name="Changes" comment="25.01">
-      <change afterPath="$PROJECT_DIR$/main/img/academy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/img/academyyandex.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/img/coursera.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/img/geekbrains.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/img/skillbox.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_01_2023_8_11__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_01_2023_8_11__Changes_.xml" afterDir="false" />
+    <list default="true" id="b0819410-79dc-47cd-8be9-7f2225b9bd08" name="Changes" comment="27.01 хочу спать ля">
+      <change afterPath="$PROJECT_DIR$/main/img/andre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/img/balash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/img/balza.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/img/github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/img/kira.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/img/vasyz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/img/vk.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/des.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/des.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/education.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/img/andre.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/img/backgroundhead0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/img/communism.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/main/img/cal.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/img/не над/3172741.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/img/не над/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/img/не над/backgroundhead.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/img/не над/cf8906c46f9410bebfb51b7f5308ca47.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/info.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.html" afterDir="false" />
     </list>
@@ -73,8 +81,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Vlad\PycharmProjects\harasho_balasho\main\img" />
-      <recent name="C:\Users\student303-1\Documents\GitHub\harasho_balasho\main\img" />
-      <recent name="C:\Users\Valentina\site_AI\балаш" />
+      <recent name="C:\Users\Vlad\PycharmProjects\harasho_balasho\main\fonts\SofiaSans" />
+      <recent name="C:\Users\Vlad\PycharmProjects\harasho_balasho\main\fonts\Comfortaa" />
+      <recent name="C:\Users\Vlad\PycharmProjects\harasho_balasho\main\fonts" />
+      <recent name="C:\Users\Vlad\PycharmProjects\harasho_balasho\main\fonts\Lato" />
     </key>
   </component>
   <component name="RunManager">
@@ -165,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674490114975</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="27.01 хочу спать ля">
+      <created>1674760493043</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674760493043</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,6 +216,7 @@
     <MESSAGE value="Andre site button" />
     <MESSAGE value="Andre connection" />
     <MESSAGE value="update 23.01" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 23.01" />
+    <MESSAGE value="27.01 хочу спать ля" />
+    <option name="LAST_COMMIT_MESSAGE" value="27.01 хочу спать ля" />
   </component>
 </project>

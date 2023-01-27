@@ -1,6 +1,29 @@
 body {
 background-color: rgb(33,37,41);
 margin: 0;
+font-family: Comfortaa, sans-serif;
+}
+@font-face {
+  font-family: "Comfortaa";
+  src: url("/main/fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "SofiaSans";
+  src: url("/main/fonts/SofiaSans/SofiaSans-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+}
+.correct{
+color: red;
+}
+.name{
+color: rgba(100,100,100,0.5);
+font-size: 6vh;
+font-family: monospace;
+font-weight: bold;
+float: left;
+padding: 0 0 0 0.5vw;
+user-select: none;
 }
 a.upbarlink {
  color: white;
@@ -21,14 +44,14 @@ color: grey;
 ::-webkit-scrollbar {
 height: 12px;
 width: 12px;
-background-color: rgb(100,100,100);
+background-color: rgb(53,57,61);
 }
 ::-webkit-scrollbar-track {
 -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.3);
 }
 ::-webkit-scrollbar-thumb {
 border-radius: 5px;
-background-color: rgb(80,90,190);
+background-color: rgba(64,94,240);
 -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
 }
 ::-webkit-scrollbar-corner{
@@ -41,7 +64,7 @@ background-color: rgb(80,90,220);
  width: 100vw;
  height: 7vh;
  color: white;
- font-family: Calibri;
+ font-family: SofiaSans;
  font-size: 20px;
  background-color: rgba(18,22,26,0.95);
  border-bottom: 5px ridge rgba(8,12,16,0.98);
@@ -49,6 +72,8 @@ background-color: rgb(80,90,220);
  z-index: 1;
 }
 .thirduplink {
+ user-select: none;
+ float: right;
  user-select: none;
  position: inherit;
  margin: calc(3.5vh - 19px) 0 0 calc(100% - 5.3em);
@@ -59,6 +84,8 @@ background-color: rgb(80,90,220);
 }
 .seconduplink{
  user-select: none;
+ float: right;
+ user-select: none;
  position: inherit;
  margin: calc(3.5vh - 19px) 0 2vh calc(100% - 12.3em);
  padding: 8px 0 10px 0;
@@ -68,6 +95,8 @@ background-color: rgb(80,90,220);
 }
 .firstuplink {
  user-select: none;
+ float: right;
+ user-select: none;
  position: inherit;
  margin: calc(3.5vh - 19px) 0 2vh calc(100% - 18.3em);
  padding: 8px 0 10px 0;
@@ -76,7 +105,7 @@ background-color: rgb(80,90,220);
  z-index: 2;
 }
 .infocontainer{
-height: 90vh;
+height: 100%;
 margin: 0;
 }
 .headbackgr {
@@ -88,60 +117,77 @@ border-radius: 0 0 30px 30px;
 }
 .headtext {
 font-weight: bold;
-font-size: 40px;
+font-size: 3.75em;
 position: relative;
 color: rgb(255,255,255);
-padding: 12vh 0 0 0;
-font-family: Andale Mono, monospace;
+padding: 10vh 0 0 0;
+font-family: SofiaSans, sans-serif;
 text-align: center;
 text-shadow: rgb(250,100,220) 1px 1px 9px, rgb(250,100,220) -1px -1px 9px, rgb(250,100,220)  -1px 1px 9px, rgb(250,100,220) 1px -1px 9px;
+}
+.headtext2 {
+font-weight: bold;
+font-size: 3.75em;
+color: rgb(255,255,255);
+font-family: SofiaSans, sans-serif;
+text-align: center;
+text-shadow: rgb(250,100,220) 1px 1px 9px, rgb(250,100,220) -1px -1px 9px, rgb(250,100,220)  -1px 1px 9px, rgb(250,100,220) 1px -1px 9px;
+}
+.underheadtext {
+font-weight: normal;
+font-size: 2em;
+color: rgb(255,255,255);
+text-align: center;
 }
 .htext {
 font-size: 38px;
 color: white;
-font-family: Consolas;
 text-align: center;
 font-weight: bold;
 }
 .desctext {
+font-weight: bolder;
+line-height: 1.75em;
 text-indent: 1em;
-font-size: 25px;
-font-family: Consolas;
+font-size: 1.4em;
 color: rgb(191,201,209);
 background-color: rgb(53,57,61);
 margin: 30px 20vw 30px 20vw;
-padding: 1px 25px 25px 25px;
+padding: 1px 25px 1px 25px;
 border-radius: 15px;
 }
 .botbutton{
+float: left;
+position: fixed;
 cursor: pointer;
 border-radius: 12px;
 border: 1px solid rgba(0,0,0);
-background-color: rgba(30,110,230);
+background-color: rgba(64,94,240);
 background-image: url(img/chat-left-dots.svg);
 background-size: 65px;
 background-repeat: no-repeat;
 background-position: 50% 60%;
 width: 75px;
 height: 75px;
-margin: 88vh 0 0 2vw;
+padding: 0;
+margin: 88vh 0 0 4vh;
 z-index: 1;
 }
 .chatwindow{
+float: left;
 position: fixed;
-border: 3px solid  rgba(255,255,255,0.9);
+border: 3px solid rgba(255,255,255,0.4);
 width: 17.5vw;
 height: 45vh;
-margin: -60vh 0 0 1vw;
+margin: 40vh 0 0 4vh;
 border-radius: 5px;
 z-index: 2;
-padding: 1px;
+padding: 2px;
 }
 .chat{
 border: 0 none rgba(0,0,0,0);
 width: 100%;
 height: 90%;
-resize: no;
 }
 .textinput{
 padding: 0;
@@ -153,43 +199,22 @@ font-family: Consolas;
 color: rgb(191,201,209);
 background-color: rgb(53,57,61);
 }
-.def {
+.str {
 font-size: 25px;
 color: white;
-font-family: Consolas, monospace;
 font-weight: bold;
 }
 .photoscontainerright{
 float:right;
 height: 90vh;
 width: 20vw;
-margin: 10vh 0 0 0;
+margin: 0;
 }
 .photoscontainerleft{
 float:left;
 height: 90vh;
 width: 20vw;
-margin: 10vh 0 0 0;
-}
-.photocommunism{
-margin: 10px;
-width: 90%;
-height: 20%;
-background-image: url(img/communism.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: 50% 50%;
-border-radius: 10px;
-}
-.photoandre{
-margin: 10px;
-width: 90%;
-height: 20%;
-background-image: url(img/andre.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: 50% 50%;
-border-radius: 10px;
+margin: 0;
 }
 .photonetology{
 margin: 0 0 0 3%;
@@ -207,6 +232,7 @@ height: 44vh;
 background-image: url(img/academy.png);
 background-size: cover;
 background-repeat: no-repeat;
+background-position: 50% 50%;
 border-radius: 10px;
 }
 .photocoursera{
@@ -225,6 +251,7 @@ height: 45vh;
 background-image: url(img/skillbox.jpg);
 background-size: cover;
 background-repeat: no-repeat;
+background-position: 50% 50%;
 border-radius: 10px;
 }
 .photogeekbrains{
@@ -234,6 +261,7 @@ height: 45vh;
 background-image: url(img/geekbrains.png);
 background-size: cover;
 background-repeat: no-repeat;
+background-position: 50% 50%;
 border-radius: 10px;
 }
 .photoacademyyandex{
@@ -243,8 +271,75 @@ height: 45vh;
 background-image: url(img/academyyandex.png);
 background-size: cover;
 background-repeat: no-repeat;
+background-position: 50% 50%;
 border-radius: 10px;
 }
-.p{
-margin: 15px 0 0 0;
+.vklink {
+margin: 0;
+}
+.gitlink {
+margin: 0 0 0 25px;
+}
+.gitlinkhead {
+margin: 0 0 0 calc(50% - 25px);
+}
+.photobalash{
+margin: 0 0 10px 30%;
+width: 40%;
+height: 50vh;
+background-image: url(img/balash.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: 50% 50%;
+border-radius: 10px;
+}
+.photobalza{
+margin: 0 0 10px 20%;
+width: 60%;
+height: 52vh;
+background-image: url(img/balza.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: 50% 40%;
+border-radius: 10px;
+}
+.photovasyz{
+margin: 0 0 10px 20%;
+width: 60%;
+height: 52vh;
+background-image: url(img/vasyz.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: 50% 30%;
+border-radius: 10px;
+}
+.photocal{
+margin: 0 0 10px 20%;
+width: 60%;
+height: 52vh;
+background-image: url(img/cal.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: 50% 70%;
+border-radius: 10px;
+}
+.photoandre{
+margin: 0 0 10px 10%;
+width: 80%;
+height: 50vh;
+background-image: url(img/andre.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: 50% 70%;
+border-radius: 10px;
+}
+.photokira{
+margin: 0 0 10px 10%;
+width: 80%;
+height: 50vh;
+background-image: url(img/kira.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: 46% 50%;
+border-radius: 10px;
 }
