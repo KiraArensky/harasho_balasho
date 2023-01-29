@@ -84,11 +84,21 @@ function GetAIResponse(messageUser) {
     data.append("mode", "var data = new FormData();")
     request.open("POST", "https://api.openai.com/v1/completions", true);
     request.setRequestHeader("Content-Type", "application/json")
-    request.setRequestHeader("Authorization", "Bearer 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")
+    request.setRequestHeader("Authorization", `Bearer ${atob("c2stZ2wwR3ROZjBMWkNKbGtHTzFhV0ZUM0JsYmtGSkhhbmszajlqZnl4NGZ3ZGxTMGJi")}`)
     request.send(`{"model": "text-davinci-003", "prompt": "Human: ${messageUser}\\n\\nAI: ", "temperature": 1, "max_tokens": 400}`);
+    request.onerror = function () {
+        console.log("error")
+    }
     request.onload = function () {
-        let AIAnswer = JSON.parse(request.response)['choices'][0]['text'].replace('\\n', '');
-        addMessageToChatLog(AIAnswer, "AI", false);
+        let JsonResponse = JSON.parse(request.response)
+        console.log(JsonResponse)
+        if ("error" === Object.keys(JsonResponse)[0]) {
+            addMessageToChatLog(JsonResponse['error']['message'], "System", false);
+        } else {
+            let AIAnswer = JSON.parse(request.response)['choices'][0]['text'].replace('\\n', '');
+            addMessageToChatLog(AIAnswer, "AI", false);
+        }
+
     }
 }
 
