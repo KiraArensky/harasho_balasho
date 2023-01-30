@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0819410-79dc-47cd-8be9-7f2225b9bd08" name="Changes" comment="Andre connection">
-      <change beforePath="$PROJECT_DIR$/Андр/a.css" beforeDir="false" afterPath="$PROJECT_DIR$/балаш/a.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Андр/des.css" beforeDir="false" afterPath="$PROJECT_DIR$/Андр/des.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/балаш/des.css" beforeDir="false" afterPath="$PROJECT_DIR$/балаш/des.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/балаш/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/балаш/main.html" afterDir="false" />
+    <list default="true" id="b0819410-79dc-47cd-8be9-7f2225b9bd08" name="Changes" comment="26.01">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_01_2023_21_28__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_01_2023_21_28__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_22_01_2023_21_27__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_22_01_2023_21_27__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/des.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/des.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +133,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="main site sketch" />

@@ -15,13 +15,8 @@ body {
     src: url("./fonts/SofiaSans/SofiaSans-VariableFont_wght.ttf") format("truetype");
     font-style: normal;
 }
-
-.correct {
-    color: red;
-}
-
 .name {
-    color: rgba(100, 100, 100, 0.5);
+    color: rgba(240, 150, 230);
     font-size: 6vh;
     font-family: monospace;
     font-weight: bold;
@@ -42,7 +37,7 @@ a.upbarlink:hover {
 }
 
 a.desclink {
-    color: white;
+    color: rgb(255, 185, 90);
 }
 
 a.desclink:hover {
@@ -154,11 +149,8 @@ a.desclink:hover {
     text-shadow: rgb(250, 100, 220) 1px 1px 9px, rgb(250, 100, 220) -1px -1px 9px, rgb(250, 100, 220) -1px 1px 9px, rgb(250, 100, 220) 1px -1px 9px;
 }
 
-.underheadtext {
-    font-weight: normal;
-    font-size: 2em;
-    color: rgb(255, 255, 255);
-    text-align: center;
+.undertext {
+    color: rgb(255, 215, 0);
 }
 
 .htext {
@@ -173,9 +165,9 @@ a.desclink:hover {
     line-height: 1.75em;
     text-indent: 1em;
     font-size: 1.4em;
-    color: rgb(191, 201, 209);
+    color: rgb(100, 149, 237);
     background-color: rgb(53, 57, 61);
-    margin: 15px 10vw 15px 10vw;
+    margin: 15px 20vw 15px 20vw;
     padding: 1px 25px 1px 25px;
     border-radius: 10px;
 }
@@ -233,13 +225,13 @@ div.start_chat_message {
 .chatwindow {
     float: left;
     position: fixed;
-    border: 3px solid rgba(255, 255, 255, 0.4);
+    border: 3px solid rgba(255, 255, 255, 0.8);
     width: 25vw;
     height: 60vh;
     margin: 25vh 0 0 4vh;
     border-radius: 5px;
     z-index: 2;
-    padding: 2px;
+    padding: 0px;
 }
 
 .chat {
@@ -250,18 +242,18 @@ div.start_chat_message {
 
 .textinput {
     padding: 0;
-    margin: calc(-2% + 2px) 0 0 -1px;
-    width: calc(100% - 2px);
-    height: calc(10% - 4px);
+    margin: -2% 0 0 0;
+    width: calc(100% - 4px);
+    height: calc(10.5% - 3px);
+    border: 2px solid black;
     border-radius: 2px;
-    font-family: Consolas;
     color: rgb(191, 201, 209);
     background-color: rgb(53, 57, 61);
 }
 
 .str {
     font-size: 25px;
-    color: white;
+    color: rgb(255, 185, 90);
     font-weight: bold;
 }
 
