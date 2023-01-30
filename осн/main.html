@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="des.css">
+    <title>AI Entertainment</title>
+</head>
+<STYLE>
+    .container{
+        display: inline-block;
+    }
+    .typed-out{
+      padding: 0 5px 0 5px;
+      overflow: hidden;
+      white-space: nowrap;
+      animation:
+      typing 1s steps(20, end) forwards, blink .8s infinite;
+      width: 0;
+    }
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 99% }
+    }
+}
+</style>
+<script>
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+function showForm() {
+    if(document.getElementById("auth").hidden) {
+        document.getElementById("auth").hidden = false;
+    } else {
+        document.getElementById("auth").hidden = true;
+    }
+}
+</script>
+<body>
+<div class="fixed">
+    <button title="Чат-бот" onclick="showForm()" class="botbutton" onmouseover="" id="link" ></button>
+    <form id="auth" hidden="" class="chatwindow">
+        <iframe src="chat.html" class="chat">
+        </iframe>
+        <input type="text" autocomplete="off" autofocus class="textinput">
+    </form>
+    <div class="name">AI ENTERTAINMENT</div>
+    <div class="thirduplink">
+        <a href="info.html" class="upbarlink">О нас</a>
+    </div>
+    <div class="seconduplink">
+        <a href="education.html" class="upbarlink">Обучение</a>
+    </div>
+    <div class="firstuplink">
+        <a onclick="topFunction()" class="upbarlink">Главная</a>
+    </div>
+</div>
+<div class="headbackgr">
+    <div class="headtext">
+        <div class="container">
+            <h1 div class="typed-out">Artificial Intelegence</h1>
+        </div>
+        <div class="hz" class="underhead">[рус. Искусственный интелект]</div>
+    </div>
+</div>
+<div class="infocontainer">
+    <div class="photoscontainerright">
+    </div>
+    <div class="photoscontainerleft">
+    </div>
+    <div class="desctext">
+    <p class="correct"><span class="str1">Искуcственный интеллект (ИИ; англ. artificial intelligence, AI)</span> &#151 свойство
+        искусственных интеллектуальных систем выполнять творческие функции, которые традиционно считаются прерогативой
+        человека (не следует путать с искусственным сознанием); наука и технология создания интеллектуальных машин,
+        особенно интеллектуальных компьютерных программ.</p>
+    <p class="correct">Искусственный интеллект связан со сходной задачей использования компьютеров для понимания человеческого
+        интеллекта, но не обязательно ограничивается биологически правдоподобными методами.</p>
+    <p class="correct">Существующие на сегодня интеллектуальные системы имеют достаточно узкие области применения. Например, программы,
+        способные обыграть человека в шахматы, не могут отвечать на вопросы.</p>
+    <p class="correct"></p>
+</div>
+</div>
+</body>
+</html>
