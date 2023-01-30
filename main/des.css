@@ -9,6 +9,31 @@ a.upbarlink
  text-decoration: none;
  padding: 8px 18px 10px 18px;
 }
+<<<<<<< Updated upstream
+=======
+
+@font-face {
+    font-family: "SofiaSans";
+    src: url("./fonts/SofiaSans/SofiaSans-VariableFont_wght.ttf") format("truetype");
+    font-style: normal;
+}
+.name {
+    color: rgba(250,150,230);
+    font-size: 6vh;
+    font-family: monospace;
+    font-weight: bold;
+    float: left;
+    padding: 0 0 0 0.5vw;
+    user-select: none;
+}
+
+a.upbarlink {
+    color: white;
+    text-decoration: none;
+    padding: 8px 18px 10px 18px;
+}
+
+>>>>>>> Stashed changes
 a.upbarlink:hover {
 color: grey;
 }
@@ -53,6 +78,7 @@ background-size: cover;
 border-radius: 0 0 30px 30px;
 }
 .headtext {
+<<<<<<< Updated upstream
 font-size: 30px;
 position: relative;
 color: white;
@@ -60,8 +86,32 @@ padding: 10% 0 0 0;
 font-family: Calibri;
 text-align: center;
 text-shadow: rgb(250,100,220) 1px 1px 15px, rgb(250,100,220) -1px -1px 15px, rgb(250,100,220)  -1px 1px 15px, rgb(250,100,220) 1px -1px 15px;
+=======
+    font-weight: bold;
+    font-size: 3.75em;
+    position: relative;
+    color: rgb(255, 255, 255);
+    padding: 10vh 0 0 0;
+    font-family: SofiaSans, sans-serif;
+    text-align: center;
+    text-shadow: rgb(250, 100, 220) 1px 1px 9px, rgb(250, 100, 220) -1px -1px 9px, rgb(250, 100, 220) -1px 1px 9px, rgb(250, 100, 220) 1px -1px 9px;
+}
+
+.headtext2 {
+    font-weight: bold;
+    font-size: 3.75em;
+    color: rgb(255, 255, 255);
+    font-family: SofiaSans, sans-serif;
+    text-align: center;
+    text-shadow: rgb(250, 100, 220) 1px 1px 9px, rgb(250, 100, 220) -1px -1px 9px, rgb(250, 100, 220) -1px 1px 9px, rgb(250, 100, 220) 1px -1px 9px;
+}
+
+.undertext {
+    color: rgb(255, 215, 0);
+>>>>>>> Stashed changes
 }
 .desctext {
+<<<<<<< Updated upstream
 font-size: 20px;
 font-family: Consolas,monospace;
 color: rgb(191,201,209); 
@@ -72,4 +122,256 @@ border-radius: 10px;
 }
 .def {
 color: white;
+=======
+    font-weight: bolder;
+    line-height: 1.75em;
+    text-indent: 1em;
+    font-size: 1.4em;
+    color: rgb(191, 201, 209);
+    background-color: rgb(53, 57, 61);
+    margin: 15px 20vw 15px 20vw;
+    padding: 1px 25px 1px 25px;
+    border-radius: 10px;
+    color: rgb(100, 149, 237);
+}
+
+div.chat_text {
+    font-weight: bolder;
+    line-height: 1.75em;
+    text-indent: 1px;
+    font-size: 20px;
+    color: rgb(191, 201, 209);
+    background-color: rgb(53, 57, 61);
+    margin: 15px 20px 15px 20px;
+    padding: 1px 10px 1px 10px;
+    border-radius: 10px;
+    white-space: normal;
+    overflow: hidden;
+}
+
+div.message-from-ai {
+    color: aqua;
+}
+
+div.start_chat_message {
+    font-weight: bolder;
+    line-height: 1.75em;
+    text-indent: 1px;
+    font-size: 20px;
+    color: rgb(70, 70, 70);
+    margin: 1px 20px 15px 20px;
+    padding: 1px 10px 1px 10px;
+    border-radius: 10px;
+    white-space: normal;
+    overflow: hidden;
+    text-align: center;
+}
+
+.botbutton {
+    float: left;
+    position: fixed;
+    cursor: pointer;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0);
+    background-color: rgba(64, 94, 240);
+    background-image: url(img/chat-left-dots.svg);
+    background-size: 65px;
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+    width: 75px;
+    height: 75px;
+    padding: 0;
+    margin: 88vh 0 0 4vh;
+    z-index: 1;
+}
+
+.chatwindow {
+    float: left;
+    position: fixed;
+    border: 3px solid rgba(255, 255, 255, 0.8);
+    width: 25vw;
+    height: 60vh;
+    margin: 25vh 0 0 4vh;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.chat {
+    border: 0 none rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 90%;
+}
+
+.textinput {
+    padding: 0;
+    margin: -2% 0 0 0;
+    width: calc(100% - 4px);
+    height: calc(10.5% - 2px);
+    border: 2px solid black;
+    border-radius: 2px;
+    font-family: Consolas;
+    color: rgb(191, 201, 209);
+    background-color: rgb(53, 57, 61);
+}
+
+.str {
+    font-size: 25px;
+    color: rgb(255, 185, 90);
+    font-weight: bold;
+}
+.photoscontainerright {
+    float: right;
+    height: 90vh;
+    width: 20vw;
+    margin: 0;
+}
+
+.photoscontainerleft {
+    float: left;
+    height: 90vh;
+    width: 20vw;
+    margin: 0;
+}
+
+.photonetology {
+    margin: 0 0 0 3%;
+    width: 94%;
+    height: 42vh;
+    background-image: url(img/netology.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.photoacademy {
+    margin: 0 0 0 12%;
+    width: 76%;
+    height: 44vh;
+    background-image: url(img/academy.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 10px;
+}
+
+.photocoursera {
+    margin: 0 0 0 17%;
+    width: 66%;
+    height: 44vh;
+    background-image: url(img/coursera.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.photoskillbox {
+    margin: 0 0 0 13%;
+    width: 74%;
+    height: 45vh;
+    background-image: url(img/skillbox.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 10px;
+}
+
+.photogeekbrains {
+    margin: 0 0 0 8%;
+    width: 84%;
+    height: 45vh;
+    background-image: url(img/geekbrains.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 10px;
+}
+
+.photoacademyyandex {
+    margin: 0 0 0 10%;
+    width: 80%;
+    height: 45vh;
+    background-image: url(img/academyyandex.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 10px;
+}
+
+.vklink {
+    margin: 0;
+}
+
+.gitlink {
+    margin: 0 0 0 25px;
+}
+
+.gitlinkhead {
+    margin: 0 0 0 calc(50% - 25px);
+}
+
+.photobalash {
+    margin: 0 0 10px 30%;
+    width: 40%;
+    height: 50vh;
+    background-image: url(img/balash.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 10px;
+}
+
+.photobalza {
+    margin: 0 0 10px 20%;
+    width: 60%;
+    height: 52vh;
+    background-image: url(img/balza.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 40%;
+    border-radius: 10px;
+}
+
+.photovasyz {
+    margin: 0 0 10px 20%;
+    width: 60%;
+    height: 52vh;
+    background-image: url(img/vasyz.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    border-radius: 10px;
+}
+
+.photocal {
+    margin: 0 0 10px 20%;
+    width: 60%;
+    height: 52vh;
+    background-image: url(img/cal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 70%;
+    border-radius: 10px;
+}
+
+.photoandre {
+    margin: 0 0 10px 10%;
+    width: 80%;
+    height: 50vh;
+    background-image: url(img/andre.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 70%;
+    border-radius: 10px;
+}
+
+.photokira {
+    margin: 0 0 10px 10%;
+    width: 80%;
+    height: 50vh;
+    background-image: url(img/kira.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 46% 50%;
+    border-radius: 10px;
+>>>>>>> Stashed changes
 }
