@@ -15,19 +15,18 @@ body {
     src: url("./fonts/SofiaSans/SofiaSans-VariableFont_wght.ttf") format("truetype");
     font-style: normal;
 }
-
-.correct {
-    color: red;
-}
-
 .name {
-    color: rgba(100, 100, 100, 0.5);
+    color: #FFB6C1;
     font-size: 6vh;
     font-family: monospace;
     font-weight: bold;
     float: left;
     padding: 0 0 0 0.5vw;
     user-select: none;
+}
+.hz{
+font-family: Comfortaa, sans-serif;
+color:rgb(135, 206, 250);
 }
 
 a.upbarlink {
@@ -42,7 +41,7 @@ a.upbarlink:hover {
 }
 
 a.desclink {
-    color: white;
+    color: rgb(255, 185, 90);
 }
 
 a.desclink:hover {
@@ -154,11 +153,8 @@ a.desclink:hover {
     text-shadow: rgb(250, 100, 220) 1px 1px 9px, rgb(250, 100, 220) -1px -1px 9px, rgb(250, 100, 220) -1px 1px 9px, rgb(250, 100, 220) 1px -1px 9px;
 }
 
-.underheadtext {
-    font-weight: normal;
-    font-size: 2em;
-    color: rgb(255, 255, 255);
-    text-align: center;
+.undertext {
+    color: rgb(255, 215, 0);
 }
 
 .htext {
@@ -173,9 +169,9 @@ a.desclink:hover {
     line-height: 1.75em;
     text-indent: 1em;
     font-size: 1.4em;
-    color: rgb(191, 201, 209);
+    color: rgb(100, 149, 237);
     background-color: rgb(53, 57, 61);
-    margin: 15px 10vw 15px 10vw;
+    margin: 15px 20vw 15px 20vw;
     padding: 1px 25px 1px 25px;
     border-radius: 10px;
 }
@@ -233,13 +229,13 @@ div.start_chat_message {
 .chatwindow {
     float: left;
     position: fixed;
-    border: 3px solid rgba(255, 255, 255, 0.4);
+    border: 3px solid rgba(255, 255, 255, 0.8);
     width: 25vw;
     height: 60vh;
     margin: 25vh 0 0 4vh;
     border-radius: 5px;
     z-index: 2;
-    padding: 2px;
+    padding: 0px;
 }
 
 .chat {
@@ -250,18 +246,19 @@ div.start_chat_message {
 
 .textinput {
     padding: 0;
-    margin: calc(-2% + 2px) 0 0 -1px;
-    width: calc(100% - 2px);
-    height: calc(10% - 4px);
+    margin: -2% 0 0 0;
+    width: calc(100% - 4px);
+    height: calc(10.5% - 3px);
+    border: 2px solid black;
     border-radius: 2px;
-    font-family: Consolas;
     color: rgb(191, 201, 209);
     background-color: rgb(53, 57, 61);
+    font-size: 1em;
 }
 
 .str {
     font-size: 25px;
-    color: white;
+    color: rgb(255, 185, 90);
     font-weight: bold;
 }
 
@@ -378,9 +375,9 @@ div.start_chat_message {
 }
 
 .photovasyz {
-    margin: 0 0 10px 20%;
-    width: 60%;
-    height: 52vh;
+    margin: 0 0 10px 25%;
+    width: 50%;
+    height: 50vh;
     background-image: url(img/vasyz.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -389,8 +386,8 @@ div.start_chat_message {
 }
 
 .photocal {
-    margin: 0 0 10px 20%;
-    width: 60%;
+    margin: 0 0 10px 30%;
+    width: 40%;
     height: 52vh;
     background-image: url(img/cal.jpg);
     background-size: cover;
@@ -400,10 +397,10 @@ div.start_chat_message {
 }
 
 .photoandre {
-    margin: 0 0 10px 10%;
-    width: 80%;
+    margin: 0 0 10px 28%;
+    width: 45%;
     height: 50vh;
-    background-image: url(img/andre.png);
+    background-image: url(img/andre.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 70%;
@@ -411,10 +408,10 @@ div.start_chat_message {
 }
 
 .photokira {
-    margin: 0 0 10px 10%;
-    width: 80%;
+    margin: 0 0 10px 15%;
+    width: 70%;
     height: 50vh;
-    background-image: url(img/kira.png);
+    background-image: url(img/kira.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 46% 50%;
